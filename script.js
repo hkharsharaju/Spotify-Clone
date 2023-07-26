@@ -1,5 +1,4 @@
 const music = new Audio('audio/12.mp3');
-// music.play();
 
 const songs = [
     {
@@ -305,11 +304,61 @@ const songs = [
     }
 ]
 
+// const pic =[
+//     {
+//         id:"37",
+//         poster:'Images/37.jpg',
+//     },
+//     {
+//         id:"38",
+//         poster:'Images/38.jpg',
+//     },
+//     {
+//         id:"39",
+//         poster:'Images/39.jpg',
+//     },
+//     {
+//         id:"40",
+//         poster:'Images/40.jpg',
+//     },
+//     {
+//         id:"41",
+//         poster:'Images/41.jpg',
+//     },
+//     {
+//         id:"42",
+//         poster:'Images/42.jpg',
+//     },
+//     {
+//         id:"43",
+//         poster:'Images/43.jpg',
+//     },
+//     {
+//         id:"44",
+//         poster:'Images/44.jpg',
+//     },
+//     {
+//         id:"45",
+//         poster:'Images/45.jpg',
+//     },
+//     {
+//         id:"46",
+//         poster:'Images/46.jpg',
+//     },
+//     {
+//         id:"47",
+//         poster:'Images/47.jpg',
+//     },
+//     {
+//         id:"48",
+//         poster:'Images/48.jpg',
+//     }
+
+// ]
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
     e.getElementsByTagName('Img')[0].src = songs[i].poster;
     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
 });
-
 
 let masterplay = document.getElementById('masterPlay');
 
