@@ -361,7 +361,7 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
 });
 
 Array.from(document.getElementsByClassName('item')).forEach((e, j) => {
-    e.getElementsByTagName('img')[0].src = pic[j].poster;
+    e.getElementsByTagName('Img')[0].src = pic[j].poster;
 });
 
 let masterplay = document.getElementById('masterPlay');
