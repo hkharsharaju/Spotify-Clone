@@ -598,8 +598,8 @@ header .song_side .popular_artists .item li{
 }
 
 header .song_side .popular_artists .item li img{
-    width: 100px; 
-    height: 100px; 
-    object-fit: cover;
+     width: 70px; 
+    height: 70px; 
+    object-fit:cover;
     border-radius: 10px;
 }
