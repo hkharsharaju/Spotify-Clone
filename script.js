@@ -360,6 +360,10 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
 });
 
+Array.from(document.getElementsByClassName('item')).forEach((e, j) => {
+    e.getElementsByTagName('img')[0].src = pic[j].poster;
+});
+
 let masterplay = document.getElementById('masterPlay');
 
 masterplay.addEventListener('click', () => {
